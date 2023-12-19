@@ -1,0 +1,169 @@
+<!--Foodbank List Lobby -->
+<html>
+    <head>
+        <style>
+            .logo{
+   
+                margin:auto;
+                background-color: antiquewhite;
+              padding: 10px;
+             }
+             
+             
+             .navigation{
+                background-color: rgb(250, 235, 215);
+                padding: 1px;
+             }
+             button
+	 {
+    transition: 0.2s;
+	 background-color:lightgreen;
+	 font-size:15px;
+	 padding: 10px 10px;
+	 font-family:franklin gothic;
+	 border-radius:30px;
+   width: 20%;
+   border:solid transparent;
+	 }
+	 
+	 button:hover
+	 {
+    transition: 0.2s;
+    background-color:lightgreen;
+	 font-size:15px;
+   color:white;
+	 padding: 10px 10px;
+	 font-family:franklin gothic;
+	 border-radius:30px;
+   cursor:grab;
+   width: 30%;
+   border:solid transparent;
+	 }
+             .donateWrapper{
+             
+                 background-color:antiquewhite;
+                 padding :5px;
+                 border-radius: 12px;
+                 width:300px;
+                 height:200px;
+             }
+             
+             .sponsorWrapper{
+                 
+                 background-color:antiquewhite;
+             }
+             
+             .container{
+                     padding: 32px;
+                     padding-left:370px;
+                     width: 50%;
+                     height:50%;
+                     
+                   }
+                   .slider-wrapper {
+                     position: relative;
+                     max-width:768;
+                     margin:0 auto;
+                   }
+                   .slider{
+                     display:flex;
+                     aspect-ratio:16/9;
+                     overflow-x:auto;
+                     scroll-snap-type: x mandatory;
+                     scroll-behavior: smooth;
+                     box-shadow:0 24px 48px -12px hsla(0, 0%, 0%, 0.25) ;
+                     border-radius: 20px;
+                    
+                   }
+                   .slider img{
+                     flex: 1 0 100%;
+                     scroll-snap-align: start;
+                     object-fit:cover;
+                   }
+                   .slider-nav{
+                     display:flex ;
+                     column-gap:16px;
+                     position: absolute;
+                     bottom: 20px;
+                     left:50%;
+                     transform: translateX(-50%);
+                     z-index:1;
+             
+                   }
+                   .fbank{
+    border-radius: 20px;
+    border:solid transparent;
+    background-color: rgb(243, 243, 243);
+     transition: 0.5s;
+}
+                   .picture{
+    border-radius: 20px;
+    width:600px;
+     height:400px;
+     transition: 0.5s;
+}
+.picture:hover{
+    border-radius: 100px;
+    width:650px;
+     height:450px;
+     transition: 0.5s;
+}
+                     .navigation{
+                 background-color: rgb(250, 235, 215);
+                           }
+             
+             
+             
+        </style>
+    </head>
+    <body>
+        <div align="center "class="logo">
+            <img style= border-radius:10%; src="https://i.pinimg.com/originals/ff/35/b4/ff35b4ff6b0fa6e1420046defcea9ac0.png" alt="LOGO" width="200" height="200">
+        </div>
+        <div align="center "class="navigation" >
+            <nav>
+                <hr>
+                <button onclick="location.href ='UserPg2.html'"; id="cash_donation_page" class="redirect">Cash Donation</button>
+                <button onclick="location.href ='UserPg1.php'";  class="redirect">Home</button>
+
+                <button onclick="location.href ='UserPg3.html'"; id="food_donation_page" class="redirect">Food Donation</button>
+                <div class="topnav">
+                <br> 
+                </nav>
+            </div>
+            <br><br>
+
+            <div align="center" class="fbank">
+               <br>
+               <a href="UserPg4.html"><img align="center" class="picture" src="img/fbank1.jpg"></a>
+                <h3>FoodBridge Penang Centre</h3>
+                <br><br>
+
+                <br>
+                <a href="UserPg5.html"><img align="center" class="picture" src="img/foodBank2.jpg"></a>
+                <h3>Nasmir Food Bank</h3>
+                <br><br>
+
+                <br>
+                <a href="UserPg6.html"><img align="center" class="picture" src="img/foodBank3.jpg"></a>
+                <h3>Omega Food Bank</h3>
+                <br><br>
+                
+                <br>
+                <a href="UserPg7.html"><img align="center" class="picture" src="img/foodBank4.jpg"></a>
+                <h3>Ah Poh s Food Bank</h3>
+                <br><br>
+                
+                <br>
+                <a href="UserPg8.html"><img align="center" class="picture" src="img/foodBank5.jpg"></a>
+                <h3>Munch Bunker Food Bank</h3>
+                <br><br>
+
+            </div>
+                
+                   
+                   
+
+
+    </body>
+</html>
